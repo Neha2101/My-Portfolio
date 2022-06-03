@@ -1,0 +1,183 @@
+﻿body{
+	font-family:sans-serif;
+}
+.navbar-inverse
+	{
+		font-size:16px;
+	}
+.homegradient
+{
+	background:linear-gradient(-45deg, #ebe0e0,  #ffb3b3, #23A6D5, #e0ebe8);
+	background-size:400% 400%;
+	animation: BackgroundGradient 14s ease infinite;
+	-webkit-animation:BackgroundGradient 14s ease infinite;
+	-moz-animation:BackgroundGradient 14s ease infinite;
+	min-height:654px;
+	margin:0;
+	width:100%;
+}
+
+@keyframes BackgroundGradient{
+				0%{
+					background-position:0% 50%;
+				}
+				
+				50%{
+					background-position:100% 50%;
+				}
+				
+				100%{
+					background-position:0% 50%;
+				}
+}	
+
+#myimg{
+	min-height:400px;
+	width:60%;
+	border-radius:40px;
+	border:4px solid #fff;
+	position:relative;
+	top:70px;
+}
+
+.img-responsive
+{
+	border-radius:35px;
+}
+
+.infome{
+	position:relative;
+	top:100px;
+	right:70px;
+	font-family:cursive,sans serif;
+	color:#fff;
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+	text-shadow:4px 4px 8px black;
+}
+
+/* about page start*/
+#about{
+	min-height:740px;
+	width:100%;
+	background:rgb(0, 0, 0,0.7);
+}
+
+.text-center{
+	color:#fff;
+	margin-top:60px;
+	font-weight:bold;
+	font-family:cursive,sans serif;
+	font-size:50px;
+	text-decoration:underline;
+	
+
+}
+
+.col-sm-9 #text1{
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	padding:30px;
+	font-family:cursive,sans serif;
+	color:#fff;
+	border-bottom:2px dotted #fff;
+	margin-top:40px;
+}
+
+.img-circle{
+	margin:90px 0px 0px 20px;
+	border:4px solid skyblue;
+}
+
+.persoinfo1{
+	color:#fff;
+	margin-top:20px;
+	line-height:40px;
+	font-weight:bold;
+	font-family:cursive,sans serif;
+	font-size:18px;
+}
+
+.persoinfo2{
+	color:#fff;
+	margin-top:20px;
+	line-height:40px;
+	font-weight:bold;
+	font-family:cursive,sans serif;
+	font-size:18px;
+}
+
+.abtme{
+	color:#fff;
+	margin-top:20px;
+	font-weight:bold;
+	font-family:cursive,sans serif;
+	font-size:18px;
+	
+}
+
+/* My Work page start*/
+
+#work{
+	height:700px;
+}
+
+.mywork{
+	height:150px;
+	font-size:50px;
+	font-weight:bold;
+	margin-top:40px;
+	font-family:cursive,sans serif;
+	color:#fff;
+	background:rgba(0,0,0,0.3);
+}
+
+.myimg{
+	height:400px;
+	width:350px;
+	margin-top:50px;
+	margin-left:140px;
+	border-radius:7px;
+}
+
+/* Skill page start*/
+
+#skill{
+	background-repeat:no repeat;
+	background-size:cover;
+	height:620px;
+	color:white;
+	position:relative;
+	
+}
+.myskills{
+	position:absolute;
+	bottom:10px;
+	left:50px;
+	color:red;
+	height:590px;
+	width:600px;
+}
+	
+.text-center {
+	font-size:22px;
+	
+}
+
+#contact{
+	background:#bbb7b73d;
+}
+.me{
+	margin-top:100px;
+}
+
+.add{
+	background:#187ae2;
+	margin-top:30px;
+	color:white;
+	border-radius:20px;
+	padding:12px;
+	font-size:18px;
+}
